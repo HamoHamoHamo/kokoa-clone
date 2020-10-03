@@ -55,3 +55,7 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+html {
+    margin-top: 25px;
+}
