@@ -10,12 +10,14 @@
 @import "Components/user-component.css";
 @import "Components/badge.css";
 @import "Components/icon-row.css";
+@import "Components/alt-screen-header.css";
 
 /* Screens */
 @import "Screens/login.css";
 @import "Screens/friends.css";
 @import "Screens/find.css";
 @import "Screens/more.css";
+@import "Screens/settings.css";
 
 body {
   font-family: "Open Sans", sans-serif;
