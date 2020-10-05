@@ -18,11 +18,12 @@
 @import "Screens/find.css";
 @import "Screens/more.css";
 @import "Screens/settings.css";
+@import "Screens/chat.css";
 
 body {
   font-family: "Open Sans", sans-serif;
-  height: 1000vh;
   color: #2e363e;
+  background-color: white;
 }
 
 .main-screen {
