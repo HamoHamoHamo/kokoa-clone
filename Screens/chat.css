@@ -104,6 +104,7 @@
     padding: 5px 25px;
     box-sizing: border-box;
     align-items:  center;
+
 }
 .reply .reply__column:first-child {
     width: 10%;
@@ -118,6 +119,7 @@
     width: 100%;
     border: var(--main-border);
     border-radius: 20px;
+    transition: all 0.3s ease-in-out;
 }
 
 .reply__column:last-child > i,
@@ -150,4 +152,14 @@
 
 .reply__column button i {
     opacity: 1;
+}
+
+.reply:focus-within .reply__column i,
+.reply:focus-within .reply__column button {
+    opacity: 0;
+}
+
+.reply:focus-within input {
+    width: 90vw;
+    transform: translateX(-13%);
 }
